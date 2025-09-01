@@ -7,7 +7,7 @@
 
 > **UNLEASH YOUR POWER** - Transform your fitness journey with the ultimate progress tracking experience.
 
-![BEASTMODE Banner](https://via.placeholder.com/1200x400/1a1a1a/00ff88?text=BEASTMODE+FITNESS+TRACKER)
+Welcome to ![BEASTMODE](./public/favicon.png) Fitness Tracker 🚀
 
 ## 🚀 **Overview**
 
@@ -36,7 +36,7 @@ BEASTMODE is a cutting-edge fitness progress tracker designed for warriors who r
 
 ## 🎯 **Live Demo**
 
-Experience BEASTMODE in action: [**Live Demo**](https://your-demo-link.vercel.app)
+Experience BEASTMODE in action: [**Live Demo**](beastmode-fitness-tracker.vercel.app)
 
 ## 🚦 **Getting Started**
 
