@@ -4,14 +4,12 @@ import { cn } from "@/lib/utils"
 interface ButtonProps extends React.ComponentProps<"button"> {
   variant?: "default" | "destructive" | "outline" | "secondary" | "ghost" | "link"
   size?: "default" | "sm" | "lg" | "icon"
-  asChild?: boolean
 }
 
 function Button({
   className,
   variant = "default",
   size = "default",
-  asChild = false,
   ...props
 }: ButtonProps) {
   const baseClasses = "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 outline-none focus-visible:ring-2 focus-visible:ring-offset-2"

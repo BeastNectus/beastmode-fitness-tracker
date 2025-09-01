@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Dumbbell, Target, TrendingUp, Zap, Timer, Trophy, Heart, Users } from "lucide-react"
+import { Dumbbell, Target, TrendingUp, Zap } from "lucide-react"
 
 export function FeaturesSection() {
   const features = [
@@ -73,7 +73,7 @@ export function FeaturesSection() {
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
-          {features.map((feature, index) => {
+          {features.map((feature) => {
             const Icon = feature.icon
             return (
               <motion.div

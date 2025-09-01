@@ -7,7 +7,7 @@
 import { useState, useEffect } from "react"
 import { useTheme } from "next-themes"
 import { Button } from "@/components/ui/button"
-import { Moon, Sun, Menu, X, Dumbbell, Zap, Target, Flame } from "lucide-react"
+import { Moon, Sun, Menu, X, Dumbbell, Zap, Target } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
 
 export function Header() {

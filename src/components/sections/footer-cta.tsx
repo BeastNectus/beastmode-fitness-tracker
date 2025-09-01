@@ -6,7 +6,7 @@
 
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Zap, Crown, Flame, Dumbbell, Github } from "lucide-react"
+import { ArrowRight, Crown, Flame, Dumbbell, Github } from "lucide-react"
 import { useState, useEffect } from "react"
 
 export function FooterCTA() {

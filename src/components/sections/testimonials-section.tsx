@@ -100,7 +100,7 @@ export function TestimonialsSection() {
 
                 {/* Beast Testimonial */}
                 <blockquote className="text-lg lg:text-xl font-bold mb-8 text-gray-900 dark:text-white group-hover:text-green-500 dark:group-hover:text-green-400 transition-colors leading-relaxed">
-                  "{testimonial.fullReview}"
+                  &quot;{testimonial.fullReview}&quot;
                 </blockquote>
 
                 {/* Transformation Result */}
