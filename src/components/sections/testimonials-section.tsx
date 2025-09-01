@@ -184,32 +184,39 @@ export function TestimonialsSection() {
           viewport={{ once: true }}
           className="mt-12 text-center"
         >
-          <div className="inline-flex items-center space-x-6 glass-card rounded-full px-8 py-6 border border-green-500/30 neon-glow">
-            <div className="flex -space-x-3">
-              {['A', 'J', 'S', 'M', 'T'].map((initial, i) => (
-                <motion.div
-                  key={i}
-                  initial={{ scale: 0 }}
-                  whileInView={{ scale: 1 }}
-                  transition={{ duration: 0.3, delay: 1 + i * 0.1 }}
-                  viewport={{ once: true }}
-                  className="w-14 h-14 rounded-full bg-gradient-to-br from-red-500 to-orange-600 flex items-center justify-center text-white text-lg font-black border-4 border-black shadow-lg neon-glow"
-                >
-                  {initial}
-                </motion.div>
-              ))}
-            </div>
-            <div className="text-left">
-              <div className="font-black text-gray-900 dark:text-white text-lg uppercase tracking-wider">
-                JOIN 25,000+ BEASTS
+          <div className="glass-card rounded-3xl lg:rounded-full px-6 py-6 lg:px-8 lg:py-6 border border-green-500/30 neon-glow max-w-4xl mx-auto">
+            <div className="flex flex-col lg:flex-row items-center justify-center space-y-6 lg:space-y-0 lg:space-x-6">
+              {/* Avatar Group */}
+              <div className="flex -space-x-2 lg:-space-x-3">
+                {['A', 'J', 'S', 'M', 'T'].map((initial, i) => (
+                  <motion.div
+                    key={i}
+                    initial={{ scale: 0 }}
+                    whileInView={{ scale: 1 }}
+                    transition={{ duration: 0.3, delay: 1 + i * 0.1 }}
+                    viewport={{ once: true }}
+                    className="w-12 h-12 lg:w-14 lg:h-14 rounded-full bg-gradient-to-br from-red-500 to-orange-600 flex items-center justify-center text-white text-base lg:text-lg font-black border-3 lg:border-4 border-black shadow-lg neon-glow"
+                  >
+                    {initial}
+                  </motion.div>
+                ))}
               </div>
-              <div className="text-sm text-green-400 font-bold uppercase tracking-wide">
-                DOMINATING THEIR LIMITS
+              
+              {/* Text Content */}
+              <div className="text-center lg:text-left">
+                <div className="font-black text-gray-900 dark:text-white text-lg lg:text-xl uppercase tracking-wider">
+                  JOIN 25,000+ BEASTS
+                </div>
+                <div className="text-sm lg:text-base text-green-400 font-bold uppercase tracking-wide">
+                  DOMINATING THEIR LIMITS
+                </div>
               </div>
-            </div>
-            <div className="flex items-center gap-2">
-              <Zap className="w-6 h-6 text-yellow-400 animate-pulse" />
-              <span className="text-yellow-400 font-black text-sm uppercase tracking-wider">LEGENDARY STATUS</span>
+              
+              {/* Status Badge */}
+              <div className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-yellow-500/20 to-orange-500/20 rounded-full border border-yellow-500/30">
+                <Zap className="w-5 h-5 lg:w-6 lg:h-6 text-yellow-400 animate-pulse" />
+                <span className="text-yellow-400 font-black text-sm lg:text-base uppercase tracking-wider">LEGENDARY STATUS</span>
+              </div>
             </div>
           </div>
         </motion.div>
