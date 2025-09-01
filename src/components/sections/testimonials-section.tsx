@@ -149,7 +149,7 @@ export function TestimonialsSection() {
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
               {[
                 { number: "4.9", label: "BEAST RATING", suffix: "/5", icon: "⭐", color: "text-yellow-400" },
-                { number: "25K+", label: "WARRIORS", suffix: "", icon: "�", color: "text-red-400" },
+                { number: "25K+", label: "WARRIORS", suffix: "", icon: "💪", color: "text-red-400" },
                 { number: "98%", label: "DOMINATION RATE", suffix: "", icon: "📈", color: "text-green-400" },
                 { number: "24/7", label: "BEAST SUPPORT", suffix: "", icon: "💬", color: "text-purple-400" },
               ].map((stat, index) => (

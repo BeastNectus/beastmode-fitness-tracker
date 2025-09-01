@@ -129,10 +129,11 @@ export function BMICalculator() {
                 
                 <Button 
                   onClick={calculateBMI} 
-                  className="w-full fitness-gradient hover:scale-105 text-white font-black py-8 text-xl rounded-3xl shadow-2xl neon-glow transform transition-all duration-300 uppercase tracking-wider"
+                  className="w-full fitness-gradient hover:scale-105 text-white font-black py-6 sm:py-8 text-lg sm:text-xl rounded-3xl shadow-2xl neon-glow transform transition-all duration-300 uppercase tracking-wider"
                   disabled={!height || !weight}
                 >
-                  🔥 CALCULATE BEAST STATS
+                  <span className="hidden sm:inline">🔥 CALCULATE BEAST STATS</span>
+                  <span className="sm:hidden">🔥 CALCULATE</span>
                 </Button>
 
                 {bmi && (
@@ -223,7 +224,7 @@ export function BMICalculator() {
                 
                 <div className="glass-card rounded-2xl p-6 border border-yellow-500/30 mt-8">
                   <div className="flex items-start gap-3">
-                    <div className="w-8 h-8 rounded-lg bg-yellow-500 flex items-center justify-center text-sm">⚠️</div>
+                    <div className="w-12 h-12 rounded-xl bg-gradient-to-r from-yellow-400 to-orange-500 flex items-center justify-center text-xl">⚠️</div>
                     <div>
                       <p className="text-yellow-400 font-bold text-sm uppercase tracking-wide mb-2">BEAST MODE DISCLAIMER</p>
                       <p className="text-gray-400 text-sm leading-relaxed">
