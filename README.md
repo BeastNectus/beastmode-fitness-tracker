@@ -7,7 +7,7 @@
 
 > **UNLEASH YOUR POWER** - Transform your fitness journey with the ultimate progress tracking experience.
 
-Welcome to ![BEASTMODE](./public/favicon.png) Fitness Tracker 🚀
+Welcome to <img src="./public/favicon.png" alt="BEASTMODE Logo" width="24" height="24" /> **BEASTMODE** Fitness Tracker 🚀
 
 ## 🚀 **Overview**
 
